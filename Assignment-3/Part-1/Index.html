@@ -23,8 +23,8 @@
       h1 {
         color: hotpink;
         font-size: 2em;
-        font-family: Georgia, "Times New Roman", Times, serif;border-bottom: 1px solid #375e97;
-        border-bottom: 10px solid purple;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        border-bottom: 10px dotted purple;
       }
 
       h2 {
@@ -41,13 +41,19 @@
       {
         color: pink;
       }
-      a:visited {
-        color: green;
-      }
 
       a:hover {
+        color: green;
         text-decoration: none;
       }
+
+      .contact-information {
+        background: white;
+        border: 5px solid purple;
+        padding: 5px;
+
+      }
+
     </style>
   </head>
 
@@ -68,6 +74,7 @@
     </p>
 
     <h2>Contact information</h2>
+    <div class="contact-information">
     <ul>
       <li>
         Email:
@@ -79,5 +86,6 @@
       </li>
       <li>Tel: 123 45678</li>
     </ul>
+    </div>
   </body>
 </html>
