@@ -3,14 +3,13 @@ html {
   }
   
   div {
-    /* Assigning the sizes and the positions */
-   width: 200px;
-   margin: auto;
-   line-height: 9;
-   /* Text Sizing */
-   font-size: 1.1rem;
-   text-align: center;
-   color: white;
-   /* Text color */
-   text-shadow: 1px 1px 1px black;
-}
+    /* Assigning sizing and position */
+    width: 200px;
+    margin: auto;
+    line-height: 9;
+    /* Text Size */
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    /* Text Shadow color*/
+    text-shadow: 1px 1px 1px black;}
