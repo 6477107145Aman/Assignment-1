@@ -2,4 +2,15 @@ html {
     font-family: sans-serif;
   }
   
-  /* Your CSS below here */
+  div {
+    /* Assigning the sizes and the positions */
+   width: 200px;
+   margin: auto;
+   line-height: 9;
+   /* Text Sizing */
+   font-size: 1.1rem;
+   text-align: center;
+   color: white;
+   /* Text color */
+   text-shadow: 1px 1px 1px black;
+}
